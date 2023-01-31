@@ -1,0 +1,14 @@
+・上下のmarginについては長さが同じなら、異なるなら短いほうが打ち消される
+
+・box-sizing
+
+・overflow scrollを用いると、横にスクロールする方法は読みにくい。もっと良い方法はあるだろうか？
+
+overflow-wrap
+https://developer.mozilla.org/ja/docs/Web/CSS/overflow-wrap
+
+・line-heightは単位なしで指定すると変更に強いコードになる
+
+・スタイルの継承
+p1, pどちらも囲っているbodyにつけるとスタイルが継承される。ただし、border等は原則継承されない。継承させたい場合はborder inheritとする
+

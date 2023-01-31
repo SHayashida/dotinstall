@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 後から指定した値が優先される */
+/* command + /でコメント */
+body{
+  margin:0;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+section{
+  border: 1px solid gray;
+  width: 400px;
+  margin: 32px auto 0;
+  border-radius: 8px;
+
+}
+
+h1{
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  font-size: 20px;
+}
+
+p{
+  margin: 0;
+  padding: 8px;
+  line-height: 1.5;
+}

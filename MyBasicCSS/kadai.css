@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 後から指定した値が優先される */
+/* command + /でコメント */
+body{
+  margin:0;
+
+}
+
+p{
+  background-color: beige;
+  margin: 16px auto;
+  width: 160px;
+  height: 160px;
+  border: 8px solid gray;
+  border-radius: 50%;
+  padding: 16px;
+  box-sizing: border-box;
+}
