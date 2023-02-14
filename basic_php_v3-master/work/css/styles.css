@@ -67,7 +67,7 @@ header{
 
 .works > h1{
   font-weight: normal;
-  font-size: 24px;
+  font-size: 24x;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -81,6 +81,11 @@ header{
   font-weight: normal;
 }
 
+.works > section > h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
 .works p {
   line-height: 1.8;
 }
@@ -90,7 +95,7 @@ header{
   display: block;
   text-align: center;
   font-size: 14px;
-  background-color: cadetblue;
+  background-color: orange;
   border-radius: 4px;
   padding: 12px;
   color: #efefef;
