@@ -28,7 +28,7 @@ if ($n === 1){
         <img src="img/taro.png" width="120" height="120" alt="太郎のアイコンです">
       </div>
       <div class="info">
-        <h1>Shunya Hayashida</h1>
+        <h1>lindatech</h1>
         <p><?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?></p>
         <ul>
           <li>
