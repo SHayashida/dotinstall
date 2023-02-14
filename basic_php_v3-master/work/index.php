@@ -1,6 +1,14 @@
 <?php 
 
-$message = 'Today is'. ' ' .date('l');
+$n = mt_rand(1, 3);
+
+if ($n === 1){
+  $message = "I'm on training";
+} elseif ($n === 2){
+  $message = "Are you in exponential grouth?";
+} else {
+  $message = 'Today is'. ' ' .date('l');
+}
 
 ?>
 
