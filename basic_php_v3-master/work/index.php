@@ -5,7 +5,7 @@ $n = mt_rand(1, 3);
 if ($n === 1){
   $message = "I'm on training";
 } elseif ($n === 2){
-  $message = "Are you in exponential grouth?";
+  $message = "Am I in exponential grouth?";
 } else {
   $message = 'Today is'. ' ' .date('l');
 }
@@ -16,9 +16,9 @@ if ($n === 1){
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>太郎のポートフォリオサイト</title>
+  <title>lindatech portfolio</title>
   <link rel="icon" href="favicon.ico">
-  <meta name="description" content="太郎のポートフォリオサイトです。">
+  <meta name="description" content="lindatechのポートフォリオサイトです">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -29,7 +29,7 @@ if ($n === 1){
       </div>
       <div class="info">
         <h1>Shunya Hayashida</h1>
-        <p><?= $message ; ?></p>
+        <p><?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
@@ -52,18 +52,21 @@ if ($n === 1){
       <img src="img/work1.png" width="400" height="260" alt="勇者ゲームの紹介画像">
       <h1>勇者ゲーム</h1>
       <p>楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。</p>
+      <a herf="hero.php">もっと見る</a>
     </section>
   
     <section>
       <img src="img/work2.png" width="400" height="260" alt="宝探しゲームの紹介画像">
       <h1>宝探しゲーム</h1>
       <p>楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。</p>
+      <a herf="tresure.php">もっと見る</a>
     </section>
   
     <section>
       <img src="img/work3.png" width="400" height="260" alt="神経衰弱の紹介画像">
       <h1>神経衰弱</h1>
       <p>楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。</p>
+      <a herf="memory.php">もっと見る</a>
     </section>
 
   </section>
